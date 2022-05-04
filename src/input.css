@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .card{
+        @apply bg-white rounded-lg shadow-md overflow-hidden;
+    }
+    .card-head{
+        @apply w-full bg-gray-100 p-4 border-b border-gray-200;
+    }
+    .card-head-title{
+        @apply font-bold;
+    }
+    .card-body{
+        @apply p-4;
+    }
+    .card-footer{
+        @apply w-full bg-gray-50 p-3 border-t border-gray-100;
+    }
+}
