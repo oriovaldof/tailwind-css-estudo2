@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 @layer components{
+    /* btn start*/
+    .btn{
+        @apply px-4 py-1 rounded text-white shadow;
+    }
+    .btn-primary{
+        @apply bg-blue-500 hover:bg-blue-600 ;
+    }
+    .btn-success{
+        @apply bg-green-500 hover:bg-green-600 ;
+    }
+    /* btn end*/
+
+    /* Card start*/
     .card{
         @apply bg-white rounded-lg shadow-md overflow-hidden;
     }
@@ -18,4 +31,5 @@
     .card-footer{
         @apply w-full bg-gray-50 p-3 border-t border-gray-100;
     }
+     /* Card end*/
 }
